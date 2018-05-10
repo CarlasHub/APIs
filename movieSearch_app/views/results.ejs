@@ -1,13 +1,23 @@
-<h1>Result</h1>
-<% for(var i = 0 ; i < data["Search"].length ;i++){%>
+
+<% include partials/header %>
+
+<div>
+<h1 id='result'>Result:</h1>
+<!--% for(var i = 0 ; i < data["Search"].length ;i++){%>
    <li>
-       <%= data["Search"][i]["Title"] %>
+       <!--%= data["Search"][i]["Title"] %>
    </li>
- <% } %>
- 
+  } -->
+ <ul>
   <% data['Search'].forEach(function(movie){ %>
      
-    <li><%= movie['Title'] %></li>
+    <li><%= movie['Title'] %> 
+    
+    - <%= movie['Year'] %> </li>
      
  <% }); %>
+ </ul>
+ <button><a href='/'>Search Again</a></button>
  
+  <% include partials/footer %>
+  </div>
