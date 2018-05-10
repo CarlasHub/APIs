@@ -1,0 +1,31 @@
+{
+  "name": "moviesearch_app",
+  "version": "1.0.0",
+  "description": "making an api request with node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlasHub/APIs.git"
+  },
+  "keywords": [
+    "api",
+    "node.js",
+    "expressjs",
+    "requests",
+    "routes"
+  ],
+  "author": "Carla Goncalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlasHub/APIs/issues"
+  },
+  "homepage": "https://github.com/CarlasHub/APIs#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}
